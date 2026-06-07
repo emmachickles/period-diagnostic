@@ -1,0 +1,20 @@
+# Core: the diagnostic, probes, and the from-scratch encoders (CT-SSL, CNN, BiGRU)
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+matplotlib>=3.7
+pandas>=2.0
+h5py>=3.0
+tqdm>=4.65
+astropy>=5.3          # Lomb-Scargle reference extractor
+torch>=2.0
+
+# Pretrained / foundation-model baselines (optional — only for the FM comparisons)
+transformers>=4.40    # Chronos-T5, PatchTST backbones
+# chronos-forecasting # pretrained Chronos (pip install chronos-forecasting)
+# momentfm            # pretrained MOMENT  (pip install momentfm)
+
+# NOTE: raw ZTF matchfile ingestion (scripts/cache_25k_lcs.py, embed_patchtst_25k.py)
+# imports a local, unpublished helper `astrotools`. The diagnostic and probes run
+# directly on the released embeddings (see README "Reproducing the paper"), so
+# astrotools is NOT required to reproduce the paper's results.

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Data & artifacts (distributed via Zenodo, not git)
+# NOTE: anchored with a leading slash so these match only the repo-root dirs,
+# not the source package src/data/.
+/data/
+/results/
+/weights/
+/embeddings/
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.pt
+*.ckpt
+
+# OS / editor
+.DS_Store
+*.swp
