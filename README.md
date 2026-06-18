@@ -124,7 +124,7 @@ reproduce the paper's results.
 @inproceedings{chickles2026template,
   title     = {Template Matching, Not Time Learning:
                A Diagnostic for Self-Supervised Light-Curve Encoders},
-  author    = {Chickles, Emma},
+  author    = {Chickles, Emma and Burdge, Kevin},
   booktitle = {AI4Physics Workshop, ICML},
   year      = {2026}
 }
@@ -133,6 +133,5 @@ reproduce the paper's results.
 ## Acknowledgements
 
 Thanks to Jeroen Audenaert for the dual-encoder structured-contrastive
-framework underlying the disentangled loss, and to Kevin Burdge for guidance
-and access to the ZTF data infrastructure. This work used the MIT ORCD/Engaging
+framework underlying the disentangled loss. This work used the MIT ORCD/Engaging
 cluster.
