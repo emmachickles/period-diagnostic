@@ -124,7 +124,7 @@ reproduce the paper's results.
 @inproceedings{chickles2026template,
   title     = {Template Matching, Not Time Learning:
                A Diagnostic for Self-Supervised Light-Curve Encoders},
-  author    = {Chickles, Emma and Audenaert, Jeroen},
+  author    = {Chickles, Emma},
   booktitle = {AI4Physics Workshop, ICML},
   year      = {2026}
 }
